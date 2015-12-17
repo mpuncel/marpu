@@ -1,4 +1,4 @@
-TCPServer server = TCPServer(23);
+/*TCPServer server = TCPServer(23);
 TCPClient client;
 void setup()
 {
@@ -8,7 +8,7 @@ void setup()
   // Make sure your Serial Terminal app is closed before powering your device
   Serial.begin(9600);
   // Now open your Serial Terminal, and hit any key to continue!
-  while(!Serial.available()) Particle.process();
+  while(!Serial.available()) Spark.process();
 
   Serial.println(WiFi.localIP());
   Serial.println(WiFi.subnetMask());
@@ -34,4 +34,4 @@ void loop()
     // if no client is yet connected, check for a new connection
     client = server.available();
   }
-}
+}*/
